@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>吕鹏的个人博客</title>
+    <link rel="stylesheet" href="css/reset.css"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,
+    user-scalable=no"/>
+    <link rel="stylesheet" href="css/swiper-4.1.6.min.css"/>
+    <link rel="stylesheet" href="css/style1.css "/>
+    <style>
+        #article_aside_command{
+            width:100%;
+            height:300px;
+            margin-top:20px;
+            border:2px solid #ccc;
+            text-align:left;
+            background:antiquewhite;
+            position:relative;
+            overflow:hidden;
+
+        }
+        #article_aside_command ul:nth-of-type(1) li{
+            float:left;
+            width:30%;
+            height:30px;
+            line-height:30px;
+            margin-left:5px;
+            text-align:center;
+            border-radius:5px;
+        }
+        #article_aside_command  ul:nth-of-type(2){
+            width:100%;
+            position:absolute;
+            left:-200%;
+            background:lightgreen;
+
+        }
+        #article_aside_command  ul:nth-of-type(3){
+            width:100%;
+            position:absolute;
+            left:-100%;
+            background:lightgreen;
+        }
+        #article_aside_command ul:nth-of-type(1){
+            width:100%;
+            height:9%;
+            padding-bottom:10px;
+        }
+        #article_aside_command ul:nth-of-type(1) li:hover{
+            background:lightskyblue;
+        }
+        #article_aside_command h4{
+            padding-top:10px;
+        }
+        #article_aside_command ul:nth-of-type(n+2) li{
+            text-align:left;
+            text-indent:20px;
+            padding-top:15px;
+            border-bottom:1px solid #ccc;
+            border-right:1px solid floralwhite;
+        }
+        #article_aside_command ul:nth-of-type(n+2) li:hover{
+            background:limegreen;
+        }
+        #article_aside_command:hover{
+            background:lightgreen;
+        }
+        #article_aside_link{
+            margin-top:20px;
+            width:100%;
+            height:180px;
+            border:1px solid red;
+            text-align:left;
+            background:darkkhaki;
+        }
+        #article_aside_link h4{
+            margin-top:10px;
+        }
+        #article_aside_link li{
+            float:left;
+            margin-top:30px;
+            margin-left:30px;
+            text-align:center;
+            width:30%;
+            height:40px;
+            line-height:40px;
+            border:1px solid #ccc;
+        }
+        #footer1{
+            width:100%;
+            height:100px;
+            position:absolute;
+            top:206%;
+            background:skyblue;
+        }
+        #footer1 span{
+            display:block;
+            height:50px;
+            padding-top:40px;
+            text-align:center;
+            color:black;
+        }
+    </style>
+</head>
+<body>
+<div id="wrap">
+    <!-- 头部-->
+    <header>
+        <div id="head">
+            <span>欢迎回来</span>
+            <span> -----吕鹏</span>
+        </div>
+    </header>
+    <nav>
+        <ul id="nav_ul">
+            <li><a href="#" target="">首页</a></li>
+            <li><a href="#" target="">网站模板</a></li>
+            <li><a href="#" target="">视频教程</a></li>
+            <li><a href="#" target="">学无止境</a></li>
+            <li><a href="#" target="">个人日记</a></li>
+            <li><a href="#" target="">关于吕鹏</a></li>
+            <li><a href="#" target="">留言板</a></li>
+        </ul>
+    </nav>
+   <article>
+       <!--页面正中央部分-->
+       <contents>
+           <div id="contents"><!--坐边轮播图部分-->
+               <div class="swiper-container contents_left">
+                   <div class="swiper-pagination"></div>
+                   <div class="swiper-wrapper">
+                       <div class="swiper-slide swiper_slides"><img src="img/girl1.jpg"/></div>
+                       <div class="swiper-slide swiper_slides"><img src="img/girl2.jpg"/></div>
+                       <div class="swiper-slide swiper_slides"><img src="img/girl3.jpg"/></div>
+                       <div class="swiper-slide swiper_slides"><img src="img/beauty5.jpg"/></div>
+                       <div class="swiper-slide swiper_slides"><img src="img/beauty6.jpg"/></div>
+                       <div class="swiper-slide swiper_slides"><img src="img/beauty8.jpg"/></div>
+                   </div>
+                   <!--右边图片部分-->
+               </div>
+               <div class="contents_right">
+                   <span>新生的希望</span>
+                   <img src="img/girl5.jpg">
+               </div>
+           </div>
+           <!-- 小div，用于显示个人博客模板和网页制作视频-->
+     <div id="model_parts">
+         <!--用于显示个人博客模板和网页制作视频-->
+          <div id="model_title">
+              <span class="model_title_left">个人博客模板</span>
+              <span class="model_title_right">网页制作视频</span>
+          </div>
+
+         <!--模板内容呈现-->
+           <div id="model_block">
+                <span class="model_blocks">
+                    <img src="img/plants1.jpg"/>
+                    <p>美丽的春天，在这个无限美好的时光，你更应该去努力学习，努力工作，
+                    无愧美好的时光，还有，一定要去爱自己爱的人，爱关心自己的人。
+                    </p>
+                </span>
+                <span class="model_blocks">
+                    <img src="img/plants2.jpg "/>
+                <p>美丽的春天，在这个无限美好的时光，你更应该去努力学习，努力工作，
+                    无愧美好的时光，还有，一定要去爱自己爱的人，爱关心自己的人。
+                    </p>
+                </span>
+                <span class="model_blocks">
+                    <img src="img/plants3.jpg "/>
+                    <p>美丽的春天，在这个无限美好的时光，你更应该去努力学习，努力工作，
+                    无愧美好的时光，还有，一定要去爱自己爱的人，爱关心自己的人。
+                    </p>
+                </span>
+                <span class="model_blocks">
+                    <ul id="model_ul">
+                         <li>第一课：网页入门</li>
+                         <li>第二课：常用的HTML标签</li>
+                         <li>第三课：HTML表单</li>
+                         <li>第四课：css入门</li>
+                         <li>第五课：常用的css样式</li>
+                         <li>第六课：css浮动</li>
+                         <li>第七课：HTML表格</li>
+                    </ul>
+                 </span>
+           </div>
+     </div>
+
+       </contents>
+       <!--文章推荐部分-->
+       <contents2>
+      <div id="contents2">
+           <div id="article_part">
+               <span id="article_part_left"><h3>文章列表</h3></span>
+                <ul id="article_part_ul">
+                   <li>
+                       <img src="img/plants1.jpg" alt=""/>
+                       <span class="article_part_span"><h3>1.美丽的春天</h3>，在这个无限美好的时光，你更应该去努力学习，努力工作，
+                    无愧美好的时光，还有，一定要去爱自己爱的人，爱关心自己的人。
+                       美丽的春天，在这个无限美好的时光，你更应该去努力学习，努力工作，
+                    无愧美好的时光，还有，一定要去爱自己爱的人，爱关心自己的人。</span>
+                   </li>
+                   <li>
+                       <img src="img/plants2.jpg" alt=""/>
+                       <span class="article_part_span"><h3>2.美丽的春天</h3>，在这个无限美好的时光，你更应该去努力学习，努力工作，
+                    无愧美好的时光，还有，一定要去爱自己爱的人，爱关心自己的人。
+                       美丽的春天，在这个无限美好的时光，你更应该去努力学习，努力工作，
+                    无愧美好的时光，还有，一定要去爱自己爱的人，爱关心自己的人。</span>
+                   </li>
+                   <li>
+                       <img src="img/plants3.jpg" alt=""/>
+                       <span class="article_part_span"><h3>3.美丽的春天</h3>，在这个无限美好的时光，你更应该去努力学习，努力工作，
+                    无愧美好的时光，还有，一定要去爱自己爱的人，爱关心自己的人。
+                       美丽的春天，在这个无限美好的时光，你更应该去努力学习，努力工作，
+                    无愧美好的时光，还有，一定要去爱自己爱的人，爱关心自己的人。</span>
+
+                   </li>
+                   <li>
+                       <img src="img/plants4.jpg" alt=""/>
+                       <span class="article_part_span"><h3>4.美丽的春天</h3>，在这个无限美好的时光，你更应该去努力学习，努力工作，
+                    无愧美好的时光，还有，一定要去爱自己爱的人，爱关心自己的人。
+                       美丽的春天，在这个无限美好的时光，你更应该去努力学习，努力工作，
+                    无愧美好的时光，还有，一定要去爱自己爱的人，爱关心自己的人。</span>
+                   </li>
+                   <li>
+                       <img src="img/plants5.jpg" alt=""/>
+                       <span class="article_part_span"><h3>5.美丽的春天</h3>，在这个无限美好的时光，你更应该去努力学习，努力工作，
+                    无愧美好的时光，还有，一定要去爱自己爱的人，爱关心自己的人。
+                       美丽的春天，在这个无限美好的时光，你更应该去努力学习，努力工作，
+                    无愧美好的时光，还有，一定要去爱自己爱的人，爱关心自己的人。</span>
+                   </li>
+                   <li>
+                       <img src="img/plants1.jpg" alt=""/>
+                       <span class="article_part_span"><h3>6.美丽的春天</h3>，在这个无限美好的时光，你更应该去努力学习，努力工作，
+                    无愧美好的时光，还有，一定要去爱自己爱的人，爱关心自己的人。
+                       美丽的春天，在这个无限美好的时光，你更应该去努力学习，努力工作，
+                    无愧美好的时光，还有，一定要去爱自己爱的人，爱关心自己的人。</span>
+                   </li>
+               </ul>
+           </div>
+           <div id="article_aside">
+               <span id="article_part_right"><h3>站内搜索</h3></span>
+               <!--侧边搜索栏-->
+               <div id="article_aside_search">
+                   <input type="text" placeholder="请输入您需要的内容"/><input type="button" value="搜索"/>
+               </div>
+               <!-关于我等介绍板块--->
+               <div id="article_aside_join">
+                   <ul>
+                       <li>关于我</li>
+                       <li>视频教程</li>
+                       <li>SEO优化</li>
+                       <li>留言板</li>
+                   </ul>
+               </div>
+               <!--关注博客等板块-->
+               <div id="article_aside_focus">
+                   <h4>关注博客:</h4>
+                    <ul>
+                        <li>邮箱订阅：1310450611@qq.com</li>
+                        <li>联系吕鹏：本科大三</li>
+                        <li>加入群聊：1234655</li>
+                        <li>关注微博：32432434</li>
+                    </ul>
+               </div>
+               <!--热门推荐模块-->
+               <div id="article_aside_command">
+                   <h4>热门推荐</h4>
+                   <ul>
+                       <li id="btn1">点击排行：</li>
+                       <li id="btn2">建站知识</li>
+                       <li id="btn3">织梦后台</li>
+                   </ul>
+                   <ul id="ul1">
+                       <li>4.相信科技的力量</li>
+                       <li>5.相信科技的力量</li>
+                       <li>6.相信科技的力量</li>
+                       <li>7.相信科技的力量</li>
+                       <li>8.相信科技的历练</li>
+                       <li>9.相信科技的李亮</li>
+                   </ul>
+
+                   <ul id="ul2">
+                       <li>10.相信科技的力量</li>
+                       <li>11.相信科技的力量</li>
+                       <li>12.相信科技的力量</li>
+                       <li>13.相信科技的力量</li>
+                       <li>14.相信科技的历练</li>
+                       <li>15.相信科技的李亮</li>
+                   </ul>
+                   <ul id="ul3">
+                       <li>1.相信科技的力量</li>
+                       <li>2.相信科技的力量</li>
+                       <li>3.相信科技的力量</li>
+                       <li>4.相信科技的力量</li>
+                       <li>5.相信科技的历练</li>
+                       <li>6.相信科技的李亮</li>
+                   </ul>
+
+               </div>
+               <!--友情链接模块-->
+               <div id="article_aside_link">
+                 <span><h4>友情链接</h4></span>
+                 <ul>
+                     <li>网站模板</li>
+                     <li>站长论坛</li>
+                     <li>SEO博客</li>
+                     <li>吉他学习</li>
+                 </ul>
+
+               </div>
+
+           </div>
+      </div>
+       </contents2>
+     </article>
+    <footer>
+        <div id="footer1">
+            <span>Designed by:吕鹏 备案号：西安电子科技大学南校区</span>
+        </div>
+    </footer>
+</div>
+</body>
+<script src="js/swiper-4.1.6.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+<script>
+    var mySwiper = new Swiper('.swiper-container', {
+        autoplay: {
+            delay:2000,
+        },
+        loop:true,
+        pagination: {
+            el: '.swiper-pagination',
+            clickable:true,
+        }
+    });
+</script>
+<script>
+   // console.log($("#model_parts").width());
+   $(" #article_aside_join li").mouseover(function(){
+       $(this).css("background","red");
+   });
+   $(" #article_aside_join li").mouseout(function(){
+       $(this).css("background","");
+   });
+   $("#article_part_ul img").mouseover(function(){
+       $(this).css("opacity",0.6);
+   });
+   $("#article_part_ul img").mouseout(function(){
+       $(this).css("opacity",1);
+   });
+   $("#article_part_ul li").mouseover(function(){
+       $(this).css("background","lightgreen");
+   });
+   $("#article_part_ul li").mouseout(function(){
+       $(this).css("background","");
+   });
+   $("#article_aside_search").mouseover(function(){
+       $(this).css("background","lightgreen");
+   });
+   $("#article_aside_search").mouseout(function(){
+       $(this).css("background","");
+   });
+   $("#article_aside_join").mouseover(function(){
+       $(this).css("background","lightgreen");
+   });
+   $("#article_aside_join").mouseout(function(){
+       $(this).css("background","");
+   });
+   $("#article_aside_focus").mouseenter(function(){
+       $(this).css("background","lightgreen");
+   });
+   $("#article_aside_focus").mouseleave(function(){
+       $(this).css("background","");
+   });
+   $("#model_block").mouseenter(function(){
+       $(this).css("background","lightgreen");
+   });
+   $("#model_block").mouseleave(function(){
+       $(this).css("background","");
+   });
+   $("#model_block .model_blocks").mouseover(function(){
+       $(this).css("background","lightblue");
+   });
+   $("#model_block .model_blocks").mouseout(function(){
+       $(this).css("background","");
+   });
+   $(".contents_right img").mouseover(function(){
+       $(this).css("opacity",0.7);
+   });
+   $(".contents_right img").mouseout(function(){
+       $(this).css("opacity",1);
+   });
+   $("#head").mouseover(function(){
+       $(this).css("opacity",0.6);
+   });
+   $("#head").mouseout(function(){
+       $(this).css("opacity",1);
+   });
+   $("#article_aside_link li").mouseover(function(){
+       $(this).css("background","lightgreen");
+   });
+   $("#article_aside_link li").mouseout(function(){
+       $(this).css("background","");
+   });
+   $("#article_part_ul li").css("border","2px solid black");
+   $("#article_part_ul li").css("borderRadius","5px");
+ //  console.log($(".model_blocks").css("border"));
+</script>
+</html>
